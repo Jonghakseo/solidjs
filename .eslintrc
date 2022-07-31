@@ -1,0 +1,14 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "solid"
+  ],
+  "extends": [
+    "plugin:prettier/recommended",
+    "eslint:recommended",
+    "plugin:solid/typescript"
+  ],
+  "rules": {
+    "no-unused-vars": "off"
+  }
+}
